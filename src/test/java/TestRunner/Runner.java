@@ -1,5 +1,7 @@
 package TestRunner;
 
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+
 //import org.junit.runner.RunWith;
 
 //import io.cucumber.junit.Cucumber;
@@ -21,7 +23,7 @@ import io.cucumber.testng.CucumberOptions;
                                     "html:target/htmlreport.html"}
  
 )
-public class Runner {
+public class Runner  extends AbstractTestNGCucumberTests{
     
     
 }
