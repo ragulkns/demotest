@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
    
                 features="src/test/resources",
                 glue={"stepDefinition"},
-                dryRun = false,
+                dryRun = true,
                 //tags = "@TC4",
                 plugin = {"pretty", "json:target\\cucumber.json",
                                     "html:target\\htmlreport.html"}
